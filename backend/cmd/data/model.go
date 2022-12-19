@@ -1,9 +1,9 @@
 package data
 
 type Book struct {
-	id             uint64 `json:"id"`
-	title          string `json:"titulo"`
-	last_date_read string `json:"ultima_leitura"`
-	chapter        uint64 `json:"capitulo"`
-	page           uint64 `json:"pagina"`
+	ID             uint64 `json:"id"`
+	Title          string `json:"titulo"`
+	Last_date_read string `json:"ultima_leitura"`
+	Chapter        uint64 `json:"capitulo"`
+	Page           uint64 `json:"pagina"`
 }
